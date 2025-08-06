@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"my-go-backend/controllers"
+	"cms/controllers"
 )
 
 func SetupRoutes(router *gin.Engine, db *gorm.DB) {

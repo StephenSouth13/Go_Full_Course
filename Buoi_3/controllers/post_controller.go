@@ -6,7 +6,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 
-	"my-go-backend/models"
+	"cms/models"
 )
 
 func GetPosts(c *gin.Context) {

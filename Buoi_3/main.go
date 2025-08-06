@@ -9,8 +9,8 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
-	"my-go-backend/models"
-	"my-go-backend/routes"
+	"cms/models"
+	"cms/routes"
 )
 
 func main() {
