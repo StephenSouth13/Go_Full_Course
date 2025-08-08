@@ -1,4 +1,4 @@
-package main 
+package main
 
 import (
 	"fmt"
@@ -14,5 +14,4 @@ func main_buoi4() {
 	swap(&a, &b)
 	fmt.Println("After swap:", a, b)
 	fmt.Print("Swapping completed successfully.\n")
-}	
-
+}
