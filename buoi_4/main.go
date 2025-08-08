@@ -7,7 +7,7 @@ import (
 func swap(a, b *int) {
 	*a, *b = *b, *a
 }
-func main_buoi4() {
+func main() {
 	a := 5
 	b := 10
 	fmt.Println("Before swap:", a, b)
